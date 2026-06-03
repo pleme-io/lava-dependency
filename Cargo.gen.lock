@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "d897e64458429a4cf1e2c6eba82c6d2fc719f43df934fc06d4f5748836ee738f",
+  "cargo_lock_sha256": "378d20ab17e34aa003c8b35fce95c5f4a0a57513c255255846753112664c2a0b",
   "target_resolves": {
     "base": {
       "arrayref-0.3.9": {
@@ -41,7 +41,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "cc-1.2.62": {
+      "cc-1.2.63": {
         "runtime_dependencies": [
           {
             "name": "find_msvc_tools",
@@ -55,7 +55,7 @@
           },
           {
             "name": "shlex",
-            "package_key": "shlex-1.3.0",
+            "package_key": "shlex-2.0.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -148,7 +148,7 @@
           },
           {
             "name": "typenum",
-            "package_key": "typenum-1.20.0",
+            "package_key": "typenum-1.20.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -351,7 +351,7 @@
         "runtime_dependencies": [
           {
             "name": "typenum",
-            "package_key": "typenum-1.20.0",
+            "package_key": "typenum-1.20.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -545,7 +545,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-dependency-0.1.1": {
+      "lava-dependency-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -807,7 +807,7 @@
           "std"
         ]
       },
-      "memchr-2.8.0": {
+      "memchr-2.8.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -866,7 +866,7 @@
         "runtime_dependencies": [
           {
             "name": "zerocopy",
-            "package_key": "zerocopy-0.8.48",
+            "package_key": "zerocopy-0.8.50",
             "kind": "normal",
             "features": [
               "simd"
@@ -1140,7 +1140,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1213,7 +1213,7 @@
           "std"
         ]
       },
-      "shlex-1.3.0": {
+      "shlex-2.0.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1378,7 +1378,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "typenum-1.20.0": {
+      "typenum-1.20.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -1393,7 +1393,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "zerocopy-0.8.48": {
+      "zerocopy-0.8.50": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1462,7 +1462,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -1670,7 +1670,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -1900,7 +1900,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -2111,7 +2111,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -2312,7 +2312,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -2491,7 +2491,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.63",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -2644,7 +2644,7 @@
     "block-buffer-0.10.4": {
       "edition": "2018"
     },
-    "cc-1.2.62": {
+    "cc-1.2.63": {
       "edition": "2018"
     },
     "cfg-if-1.0.4": {
@@ -2715,7 +2715,7 @@
     "lava-anomaly-0.1.1": {
       "edition": "2024"
     },
-    "lava-dependency-0.1.1": {
+    "lava-dependency-0.1.2": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_dependency",
@@ -2738,7 +2738,7 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "memchr-2.8.0": {
+    "memchr-2.8.1": {
       "edition": "2021"
     },
     "num-traits-0.2.19": {
@@ -2793,8 +2793,8 @@
     "sha2-0.10.9": {
       "edition": "2018"
     },
-    "shlex-1.3.0": {
-      "edition": "2015"
+    "shlex-2.0.1": {
+      "edition": "2018"
     },
     "signature-2.2.0": {
       "edition": "2021"
@@ -2816,7 +2816,7 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "typenum-1.20.0": {
+    "typenum-1.20.1": {
       "edition": "2018"
     },
     "unicode-ident-1.0.24": {
@@ -2825,7 +2825,7 @@
     "version_check-0.9.5": {
       "edition": "2015"
     },
-    "zerocopy-0.8.48": {
+    "zerocopy-0.8.50": {
       "edition": "2021",
       "build_script": "build.rs"
     },
