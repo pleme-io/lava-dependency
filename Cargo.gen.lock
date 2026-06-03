@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "216392bfbb566d4f109404e09ad9e66c0e93f1b30cf417b04ccbf3f07a995612",
+  "cargo_lock_sha256": "22d652a3869c756b8a92a81fc926b7af37cdcb4e6a3dc20d2c63f61fb231adc8",
   "target_resolves": {
     "base": {
       "arrayref-0.3.9": {
@@ -463,7 +463,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-anomaly-0.1.1": {
+      "lava-anomaly-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "chrono",
@@ -491,7 +491,7 @@
           },
           {
             "name": "lava_drift",
-            "package_key": "lava-drift-0.1.1",
+            "package_key": "lava-drift-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -545,7 +545,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-dependency-0.1.2": {
+      "lava-dependency-0.1.3": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -561,7 +561,7 @@
           },
           {
             "name": "lava_anomaly",
-            "package_key": "lava-anomaly-0.1.1",
+            "package_key": "lava-anomaly-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -571,7 +571,7 @@
           },
           {
             "name": "lava_drift",
-            "package_key": "lava-drift-0.1.1",
+            "package_key": "lava-drift-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -625,7 +625,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-drift-0.1.1": {
+      "lava-drift-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "chrono",
@@ -2712,17 +2712,17 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "lava-anomaly-0.1.1": {
+    "lava-anomaly-0.1.2": {
       "edition": "2024"
     },
-    "lava-dependency-0.1.2": {
+    "lava-dependency-0.1.3": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_dependency",
         "path": "src/lib.rs"
       }
     },
-    "lava-drift-0.1.1": {
+    "lava-drift-0.1.2": {
       "edition": "2024"
     },
     "lava-outcome-chain-0.1.2": {
@@ -2845,9 +2845,9 @@
     }
   },
   "git_nar_sha256": {
-    "lava-anomaly-0.1.1": "sha256-RoFBVk9FZVXe5FGK0w8+cM7r3qTBK95l0IVNRl2uDhU=",
-    "lava-drift-0.1.1": "sha256-Pxmogg9eBxDbP/B/ep6XIJrzjtPwzbqA2Lg1eN1cZ7s=",
-    "lava-outcome-chain-0.1.2": "sha256-VCAIKxaBOKawKqLsiIPyuHbRoHpdDcdLdyGE6vkehbk="
+    "lava-anomaly-0.1.2": "sha256-Z2BtBzuOttEqc1I2LJjTsnScHRBSFtcQVhKDF0u5tIc=",
+    "lava-drift-0.1.2": "sha256-IRgc+VxzfIAHLDwuJtSFIiNjomaHzD0jIj/AXKDqbdw=",
+    "lava-outcome-chain-0.1.2": "sha256-Ax/twvuQ+8Yb4D5V69mK5TbbqLvJ1MVbKbHcjB6F8E8="
   },
   "flake_metadata": {}
 }

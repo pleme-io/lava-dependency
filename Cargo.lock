@@ -344,7 +344,7 @@ dependencies = [
 [[package]]
 name = "lava-anomaly"
 version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-anomaly?branch=main#73a6b0ff959c487b23398ea7f508f4267f1e80cb"
+source = "git+https://github.com/pleme-io/lava-anomaly?branch=main#e8fab1b9c355bf7c8cd78aa08d2c913104ef1e6d"
 dependencies = [
  "chrono",
  "indexmap",
