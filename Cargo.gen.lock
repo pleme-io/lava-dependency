@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "378d20ab17e34aa003c8b35fce95c5f4a0a57513c255255846753112664c2a0b",
+  "cargo_lock_sha256": "216392bfbb566d4f109404e09ad9e66c0e93f1b30cf417b04ccbf3f07a995612",
   "target_resolves": {
     "base": {
       "arrayref-0.3.9": {
@@ -2845,7 +2845,7 @@
     }
   },
   "git_nar_sha256": {
-    "lava-anomaly-0.1.1": "sha256-oO+ZaKpFD2JY0whN+JWhXu8KCf1oOOwKCI5AKl37ssY=",
+    "lava-anomaly-0.1.1": "sha256-RoFBVk9FZVXe5FGK0w8+cM7r3qTBK95l0IVNRl2uDhU=",
     "lava-drift-0.1.1": "sha256-Pxmogg9eBxDbP/B/ep6XIJrzjtPwzbqA2Lg1eN1cZ7s=",
     "lava-outcome-chain-0.1.2": "sha256-VCAIKxaBOKawKqLsiIPyuHbRoHpdDcdLdyGE6vkehbk="
   },
