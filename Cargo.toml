@@ -6,7 +6,7 @@ license = "MIT"
 name = "lava-dependency"
 readme = "README.md"
 repository = "https://github.com/pleme-io/lava-dependency"
-version = "0.1.2"
+version = "0.1.3"
 
 [lib]
 name = "lava_dependency"
