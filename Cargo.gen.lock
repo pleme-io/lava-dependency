@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "22d652a3869c756b8a92a81fc926b7af37cdcb4e6a3dc20d2c63f61fb231adc8",
+  "cargo_lock_sha256": "99a6ac62c3faec348f311e2683c2a3dd23e8aa9fdb5605ba18cce2f64a7dce7a",
   "target_resolves": {
     "base": {
       "arrayref-0.3.9": {
@@ -463,7 +463,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-anomaly-0.1.2": {
+      "lava-anomaly-0.1.3": {
         "runtime_dependencies": [
           {
             "name": "chrono",
@@ -545,7 +545,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-dependency-0.1.3": {
+      "lava-dependency-0.1.4": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -561,7 +561,7 @@
           },
           {
             "name": "lava_anomaly",
-            "package_key": "lava-anomaly-0.1.2",
+            "package_key": "lava-anomaly-0.1.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2716,10 +2716,10 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "lava-anomaly-0.1.2": {
+    "lava-anomaly-0.1.3": {
       "edition": "2024"
     },
-    "lava-dependency-0.1.3": {
+    "lava-dependency-0.1.4": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_dependency",
@@ -2845,8 +2845,8 @@
     }
   },
   "git_nar_sha256": {
-    "lava-anomaly-0.1.2": "sha256-Z2BtBzuOttEqc1I2LJjTsnScHRBSFtcQVhKDF0u5tIc=",
-    "lava-drift-0.1.2": "sha256-IRgc+VxzfIAHLDwuJtSFIiNjomaHzD0jIj/AXKDqbdw=",
+    "lava-anomaly-0.1.3": "sha256-hayErFzPH5n7cwWUcQ5wEZwDmidWBTJdzRXcq8mww4w=",
+    "lava-drift-0.1.2": "sha256-aUHjKgVmkfef8Nn3Aiuwo+dhjE2/KcK6bbLJa9giOPA=",
     "lava-outcome-chain-0.1.2": "sha256-Ax/twvuQ+8Yb4D5V69mK5TbbqLvJ1MVbKbHcjB6F8E8="
   },
   "flake_metadata": {}

@@ -1139,13 +1139,13 @@ rec {
       };
       "lava-anomaly" = rec {
         crateName = "lava-anomaly";
-        version = "0.1.1";
+        version = "0.1.2";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-anomaly";
-          rev = "a83754020086497ddeb198cdbd5c2b472fdcf4bc";
-          sha256 = "058fmrflckc5s1jxway1lkgfpkkh7q7x72jiwkg5ara59xb430a6";
+          rev = "e8fab1b9c355bf7c8cd78aa08d2c913104ef1e6d";
+          sha256 = "11xlp55ig0qjaq8df5jj20frqx5jsfc2qdjjfcmd3dlf7c3nsq37";
         };
         libName = "lava_anomaly";
         authors = [
@@ -1188,7 +1188,7 @@ rec {
       };
       "lava-dependency" = rec {
         crateName = "lava-dependency";
-        version = "0.1.3";
+        version = "0.1.4";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         libName = "lava_dependency";
@@ -1231,13 +1231,13 @@ rec {
       };
       "lava-drift" = rec {
         crateName = "lava-drift";
-        version = "0.1.1";
+        version = "0.1.2";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-drift";
-          rev = "25846e460c2f4b4761d054a3897ebfa386c34cd3";
-          sha256 = "1fv7bkfphddqv20bmkghsf7g76i0jyg7lzzh7zdi01sy1y1ah69z";
+          rev = "f1688d2d64ccb56093213527148f29a748050600";
+          sha256 = "1p3dxah5rh1z48ikvk47csi668r2hpa2cbiw5h3q0z3kbkwiq611";
         };
         libName = "lava_drift";
         authors = [
@@ -1282,8 +1282,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-outcome-chain";
-          rev = "d70747a11eb45dda222a03abc2b8a3ae9511b7ec";
-          sha256 = "1fc53vwym111fx5wf3axgahd2xmqya1qiv525aqacf412qmhh82l";
+          rev = "193b8e7f94a445c0653bce5e8f48b7477d3baeeb";
+          sha256 = "0kzhhlg8rp5i55dwbm69pfldndp5ibcynm9yw0dwdywhzg1fs7q3";
         };
         libName = "lava_outcome_chain";
         authors = [
